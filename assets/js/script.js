@@ -20,6 +20,9 @@ let isArabic = false;
 
 const translations = {
     en: {
+        'app-demo-plant': 'Plant a Tree',
+        'app-demo-recycle': 'Recycle',
+        'app-demo-share': 'Share Progress',
         'social-title': 'Follow Us',
         'footer-desc': 'Environmental community platform for a sustainable UAE future',
         // Team section
@@ -125,6 +128,9 @@ const translations = {
         'footer-follow': 'Follow us:',
     },
     ar: {
+        'app-demo-plant': 'ازرع شجرة',
+        'app-demo-recycle': 'إعادة التدوير',
+        'app-demo-share': 'شارك التقدم',
         'social-title': 'تابعنا',
         'footer-desc': 'منصة مجتمعية بيئية من أجل مستقبل مستدام لدولة الإمارات',
         // Team section
@@ -234,6 +240,7 @@ const translations = {
 };
 
 langToggle.addEventListener("click", () => {
+ 
   const lang = isArabic ? "ar" : "en";
 
   // Update text direction
@@ -481,6 +488,14 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
 
   if (contactTitle)
     contactTitle.textContent = translations[lang]["contact-title"];
+
+   // Update App Mockup Demo Cards
+  const appDemoPlant = document.getElementById('app-demo-plant');
+  const appDemoRecycle = document.getElementById('app-demo-recycle');
+  const appDemoShare = document.getElementById('app-demo-share');
+  if (appDemoPlant) appDemoPlant.textContent = translations[lang]['app-demo-plant'];
+  if (appDemoRecycle) appDemoRecycle.textContent = translations[lang]['app-demo-recycle'];
+  if (appDemoShare) appDemoShare.textContent = translations[lang]['app-demo-share'];
 isArabic = !isArabic;
 });
 
