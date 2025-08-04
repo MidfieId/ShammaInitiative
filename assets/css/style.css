@@ -263,7 +263,9 @@ h6 {
 }
 
 
-
+.app-content-demo span {
+    color:var(--light-gray)
+}
 
 .hero-buttons {
     display: flex;
