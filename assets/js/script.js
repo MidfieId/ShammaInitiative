@@ -689,10 +689,7 @@ window.addEventListener("scroll", () => {
   const scrolled = window.pageYOffset;
   const heroImage = document.querySelector(".hero-image img");
 
-  if (heroImage) {
-    const rate = scrolled * -0.5;
-    heroImage.style.transform = `translateY(${rate}px)`;
-  }
+  
 });
 
 // Loading Screen (optional)

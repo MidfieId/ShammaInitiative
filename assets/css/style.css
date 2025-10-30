@@ -239,6 +239,7 @@ h6 {
     flex-direction: column;
     gap: 1rem;
 }
+
 .hero-paragraph {
     width: 60%;
     color: var(--dark-green);
@@ -262,19 +263,18 @@ h6 {
 }
 
 .ghars-logo{
-    background-color: white;
     width: 75%;
     margin-bottom: 1rem;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 2rem;
 }
 
 .ghars-logo img {
     width: 200px;
     height: auto;
+    border-radius: 10px;
 }
 
 .app-content-demo span {
@@ -561,7 +561,7 @@ h6 {
 
 /* App Section */
 .app-section {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: var(--primary-color);
     color: var(--white);
 }
@@ -993,6 +993,13 @@ h6 {
         align-items: center;
         transition: var(--transition);
         box-shadow: var(--shadow);
+    }
+
+    .app-section{
+        margin:auto;
+        display:flex;
+        align-items:center;
+        flex-direction: column;
     }
 
     .nav-menu.active {
