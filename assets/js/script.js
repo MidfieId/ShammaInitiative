@@ -656,33 +656,33 @@ appStoreButtons.forEach((button) => {
 });
 
 // Social Media Link Tracking
-const socialLinks = document.querySelectorAll(".social-link, .footer-social a");
-socialLinks.forEach((link) => {
-  link.addEventListener("click", (e) => {
-    e.preventDefault();
+// const socialLinks = document.querySelectorAll(".social-link, .footer-social a");
+// socialLinks.forEach((link) => {
+//   link.addEventListener("click", (e) => {
+//     e.preventDefault();
 
-    // Get social platform from classes or icon
-    const platform = link.className.includes("instagram")
-      ? "Instagram"
-      : link.className.includes("twitter")
-      ? "Twitter"
-      : link.className.includes("facebook")
-      ? "Facebook"
-      : link.className.includes("tiktok")
-      ? "TikTok"
-      : link.className.includes("youtube")
-      ? "YouTube"
-      : link.className.includes("linkedin")
-      ? "LinkedIn"
-      : "Social Media";
+//     // Get social platform from classes or icon
+//     const platform = link.className.includes("instagram")
+//       ? "Instagram"
+//       : link.className.includes("twitter")
+//       ? "Twitter"
+//       : link.className.includes("facebook")
+//       ? "Facebook"
+//       : link.className.includes("tiktok")
+//       ? "TikTok"
+//       : link.className.includes("youtube")
+//       ? "YouTube"
+//       : link.className.includes("linkedin")
+//       ? "LinkedIn"
+//       : "Social Media";
 
-    // Show message about following
-    alert(`Follow @shmma_initiative on ${platform} for the latest updates!`);
+//     // Show message about following
+//     alert(`Follow @shmma_initiative on ${platform} for the latest updates!`);
 
-    // In a real implementation, you would redirect to actual social media pages
-    // window.open('https://instagram.com/shmma_initiative', '_blank');
-  });
-});
+//     // In a real implementation, you would redirect to actual social media pages
+//     // window.open('https://instagram.com/shmma_initiative', '_blank');
+//   });
+// });
 
 // Parallax Effect for Hero Section
 window.addEventListener("scroll", () => {
