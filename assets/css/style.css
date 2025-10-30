@@ -268,7 +268,7 @@ h6 {
 }
 
 .ghars-logo{
-    width: 75%;
+    width: 100%;
     margin-bottom: 1rem;
     border-radius: 10px;
     display: flex;
@@ -294,7 +294,8 @@ h6 {
 
 .app-badges {
     display: flex;
-    gap: 1rem;
+    justify-content: space-around;
+    gap: 0.5rem;
 }
 
 .app-badge img {
@@ -566,7 +567,7 @@ h6 {
 
 /* App Section */
 .app-section {
-    padding: 4rem 0;
+    padding: 1rem 0;
     background: var(--primary-color);
     color: var(--white);
 }
