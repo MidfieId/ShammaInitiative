@@ -66,7 +66,7 @@ const translations = {
         'download-app': 'Download App',
         'learn-more': 'Learn More',
         'about-title': 'About the Initiative',
-        'about-subtitle': 'Under the patronage of Sheikha Shamma bint Mohammed Bin Khalid Al Nahyan',
+        'about-subtitle': 'Under the patronage of Sheikha Shamma Bint Mohammed Bin Khalid Al Nahyan',
         'mission-title': 'Our Mission',
         'mission-text': 'The Shamma Initiative is an environmental community platform that aims to spread the culture of tree planting and recycling among community members, especially targeting youth and children, within the framework of UAE Vision 2030 for environmental sustainability.',
         'vision-title': 'Vision 2030',
