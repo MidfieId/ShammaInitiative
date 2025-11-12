@@ -90,23 +90,26 @@ const translations = {
         'goal6-text': 'Create measurable positive environmental impact across the UAE',
         'programs-title': 'Our Programs',
         'programs-subtitle': 'Year-round activities and initiatives',
-        'q1-title': 'Launch & Engagement',
-        'q2-title': 'Education & Awareness',
-        'q3-title': 'Community Expansion',
-        'q4-title': 'Recognition & Growth',
+        'q1-title': 'Eco Expo Industrial Forum and Exhibition',
+        'q2-title': 'Smart Afforestation Platform (E.GHARS)',
+        'q3-title': 'Distribution of Recycling Machines',
+        'q4-title': '"Environmental Education Bag" Program (Awareness Kits)',
+        'q5-title': 'Mobile Library for Environmental Education',
         
-        'q1-item1': 'Tree Planting Week Challenge',
-        'q1-item2': 'Personal meetings with participants',
-        'q1-item3': 'Family tree planting challenges',
-        'q2-item1': 'School workshops',
-        'q2-item2': 'Educational content creation',
-        'q2-item3': 'Live broadcasts from planting sites',
-        'q3-item1': 'Competitions and challenges',
-        'q3-item2': 'Impactful videos with Sheikha Shamma',
-        'q3-item3': 'Official social media announcements',
-        'q4-item1': 'COP28 related activities',
-        'q4-item2': 'Annual project documentation',
-        'q4-item3': 'Thank you videos from Sheikha',
+        'q1-item1': 'Goal: To showcase the latest innovations and technological solutions in the field of environmental sustainability and clean industry.',
+        'q1-item2': 'Slogan: "Smart Industry for a Clean Environment"',
+        'q1-item3': 'Themes: Focuses on smart technologies, the circular economy, clean and renewable energy, and industrial emissions management.',
+        'q1-item4': 'Date and Location: To be held during the period November 25 - 26, 2025, in Al Dhannah City - Abu Dhabi Emirate.',
+        'q2-item1': 'Goal: Aims to promote sustainable afforestation practices using the E-GHARS application.',
+        'q2-item2': 'It facilitates the sustainable afforestation process and provides an electronic payment option.',
+        'q2-item3': 'It contributes to achieving the UAE\'s goals in reducing the carbon footprint and promoting sustainability.',
+        'q3-item1': 'Goal: The objective is to spread the culture of recycling among community members.',
+        'q3-item2': 'They provide users with instant rewards (such as mobile credit or points) for used water bottles and beverage cans.',
+        'q3-item3': 'Quantitative Goal: To provide 2,000 machines by 2030 to become the main channel for collecting solid waste for recycling.',
+        'q4-item1': 'The kit is distributed to students in schools to enhance environmental awareness and encourage correct environmental practices.',
+        'q4-item2': 'Its contents include awareness stories, interactive activities, and recycling tools.',
+        'q5-item1':'It is a mobile educational library aimed at spreading environmental knowledge and educating the community in various regions.',
+        'q5-item2':'It conducts regular tours throughout the Emirates to achieve comprehensive access for all community members.',
         'app-title': 'Download Our Mobile App',
         'app-text': 'Join our community through our interactive mobile application for community participation in tree planting and recycling initiatives.',
         'feature1': 'Share before/after photos',
@@ -198,23 +201,26 @@ const translations = {
         'goal6-text': 'خلق تأثير بيئي إيجابي قابل للقياس في جميع أنحاء دولة الإمارات',
         'programs-title': 'برامجنا',
         'programs-subtitle': 'أنشطة ومبادرات على مدار السنة',
-        'q1-title': 'الإطلاق والمشاركة',
-        'q2-title': 'التعليم والتوعية',
-        'q3-title': 'التوسع المجتمعي',
-        'q4-title': 'التقدير والنمو',
-        
-        'q1-item1': 'تحدي أسبوع زراعة الأشجار',
-        'q1-item2': 'لقاءات شخصية مع المشاركين',
-        'q1-item3': 'تحديات زراعة الأشجار العائلية',
-        'q2-item1': 'ورش عمل مدرسية',
-        'q2-item2': 'إنشاء محتوى تعليمي',
-        'q2-item3': 'بث مباشر من مواقع الزراعة',
-        'q3-item1': 'مسابقات وتحديات',
-        'q3-item2': 'فيديوهات مؤثرة مع الشيخة شما',
-        'q3-item3': 'إعلانات رسمية على وسائل التواصل الاجتماعي',
-        'q4-item1': 'أنشطة متعلقة بمؤتمر COP28',
-        'q4-item2': 'توثيق المشروع السنوي',
-        'q4-item3': 'فيديوهات شكر من الشيخة',
+        'q1-title': 'ملتقى ومعرض "إيكو أكسبو الصناعي الأول"',
+        'q2-title': 'منصة التشجير الذكي (E.GHARS)',
+        'q3-title': 'توزيع ماكينات إعادة التدوير',
+        'q4-title': 'برنامج "حقيبة للتثقيف البيئي" (حقائب توعوية) ',
+        'q5-title':'المكتبة المتنقلة للتثقيف البيئي',
+
+        'q1-item1': 'الهدف : عرض أحدث الابتكارات والحلول التكنولوجية في مجال الاستدامة البيئية والصناعة النظيفة.',
+        'q1-item2': 'الشعار :"صناعة ذكية من أجل بيئة نظيفة".',
+        'q1-item3': 'المحاور : يركز على التقنيات الذكية، الاقتصاد الدائري، الطاقة النظيفة والمتجددة، وإدارة الانبعاثات الصناعية .',
+        'q1-item4': 'التاريخ والمكان : يُقام خلال الفترة 25 - 26 نوفمبر 2025 م في مدينة الظنة - إمارة أبوظبي.',
+        'q2-item1':'تهدف إلى تعزيز ممارسات التشجير المستدام باستخدام تطبيق E-GHARS.',
+        'q2-item2': 'تسهل عملية التشجير المستدام وتوفر خيار الدفع الإلكتروني.',
+        'q2-item3': 'تساهم في تحقيق أهداف الإمارات في خفض البصمة الكربونية وتعزيز الاستدامة.',
+        'q3-item1': 'الهدف هو نشر ثقافة إعادة التدوير بين أفراد المجتمع.',
+        'q3-item2': 'تمنح المستخدمين جوائز فورية (مثل رصيد موبايل او نقاط) مقابل زجاجات المياه وعلب المشروبات المستعملة.',
+        'q3-item3': 'الهدف الكمي: توفير 2000 ماكينة بحلول عام 2030 لتصبح قناة التجميع الرئيسية للمخلفات الصلبة.',
+        'q4-item1': 'يتم توزيع الحقيبة على الطلاب في المدارس لتعزيز الوعي البيئي وتشجيعهم على ممارسات بيئية صحيحة.',
+        'q4-item2': 'محتوياتها تشمل قصصًا توعوية، وأنشطة تفاعلية، وأدوات إعادة التدوير.',
+        'q5-item1':'مكتبة تعليمية متنقلة تهدف إلى نشر المعرفة البيئية وتثقيف المجتمع في مختلف المناطق.',
+        'q5-item2':'تقوم بجولات منتظمة في جميع أنحاء الإمارات لتحقيق شمولية الوصول إلى كافة أفراد المجتمع.',
         'app-title': 'حمل تطبيقنا المحمول',
         'app-text': 'انضم إلى مجتمعنا من خلال تطبيقنا التفاعلي للمشاركة المجتمعية في مبادرات زراعة الأشجار وإعادة التدوير.',
         'feature1': 'شارك صور قبل وبعد',
@@ -230,7 +236,6 @@ const translations = {
         'contact-email': 'sustainability@smbkc-culture.com',
         'contact-phone': '+971 54 327 4710',
         'contact-address': 'العين، أبوظبي، الإمارات العربية المتحدة',
-        // ...existing code...
         'contact-address': 'العين، أبوظبي، الإمارات العربية المتحدة',
         // Footer translations
         'footer-copyright': '© 2025 مبادرة الشيخة شما. جميع الحقوق محفوظة.',
@@ -358,11 +363,14 @@ langToggle.addEventListener("click", () => {
   const q1Item1 = document.querySelector("#q1-item1");
   const q1Item2 = document.querySelector("#q1-item2");
   const q1Item3 = document.querySelector("#q1-item3");
+  const q1Item4 = document.querySelector('#q1-item4');
 
   if (q1Title) q1Title.textContent = translations[lang]["q1-title"];
   if (q1Item1) q1Item1.textContent = translations[lang]["q1-item1"];
   if (q1Item2) q1Item2.textContent = translations[lang]["q1-item2"];
   if (q1Item3) q1Item3.textContent = translations[lang]["q1-item3"];
+  if (q1Item4) q1Item4.textContent = translations[lang]["q1-item4"];
+
 
   // Update Q2 items
   const q2Title = document.querySelector("#q2-title");
@@ -391,6 +399,15 @@ langToggle.addEventListener("click", () => {
   const q4Item1 = document.querySelector("#q4-item1");
   const q4Item2 = document.querySelector("#q4-item2");
   const q4Item3 = document.querySelector("#q4-item3");
+
+    // Update Q5 items
+  const q5Title = document.querySelector("#q5-title");
+  const q5Item1 = document.querySelector("#q5-item1");
+  const q5Item2 = document.querySelector("#q5-item2");
+
+  if (q5Title) q5Title.textContent = translations[lang]["q5-title"];
+  if (q5Item1) q5Item1.textContent = translations[lang]["q5-item1"];
+  if (q5Item2) q5Item2.textContent = translations[lang]["q5-item2"];
 
   // Update Contact section
 const contactUsTitle = document.querySelector("#contact-title");
@@ -655,41 +672,10 @@ appStoreButtons.forEach((button) => {
   });
 });
 
-// Social Media Link Tracking
-// const socialLinks = document.querySelectorAll(".social-link, .footer-social a");
-// socialLinks.forEach((link) => {
-//   link.addEventListener("click", (e) => {
-//     e.preventDefault();
-
-//     // Get social platform from classes or icon
-//     const platform = link.className.includes("instagram")
-//       ? "Instagram"
-//       : link.className.includes("twitter")
-//       ? "Twitter"
-//       : link.className.includes("facebook")
-//       ? "Facebook"
-//       : link.className.includes("tiktok")
-//       ? "TikTok"
-//       : link.className.includes("youtube")
-//       ? "YouTube"
-//       : link.className.includes("linkedin")
-//       ? "LinkedIn"
-//       : "Social Media";
-
-//     // Show message about following
-//     alert(`Follow @shmma_initiative on ${platform} for the latest updates!`);
-
-//     // In a real implementation, you would redirect to actual social media pages
-//     // window.open('https://instagram.com/shmma_initiative', '_blank');
-//   });
-// });
-
 // Parallax Effect for Hero Section
 window.addEventListener("scroll", () => {
   const scrolled = window.pageYOffset;
   const heroImage = document.querySelector(".hero-image img");
-
-  
 });
 
 // Loading Screen (optional)

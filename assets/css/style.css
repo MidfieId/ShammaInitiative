@@ -514,7 +514,7 @@ h6 {
 
 .timeline-item {
     background: var(--white);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 15px;
     position: relative;
     transition: var(--transition);
@@ -557,12 +557,22 @@ h6 {
     position: relative;
 }
 
+.timeline-content li:dir(rtl) {
+    padding-right: 1.5rem; 
+    padding-left: 0;       
+}
+
 .timeline-content li::before {
     content: '•';
     color: var(--accent-color);
     position: absolute;
-    left: 0;
+    left: 0; 
     font-size: 1.2rem;
+}
+
+.timeline-content li:dir(rtl)::before {
+    left: auto;  
+    right: 0;    
 }
 
 /* App Section */
