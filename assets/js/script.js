@@ -386,8 +386,8 @@ langToggle.addEventListener("click", () => {
       "nav-about",
       "nav-goals",
       "nav-programs",
-      "nav-team",
       "nav-app",
+      "nav-team",
       "nav-contact",
     ];
   }
