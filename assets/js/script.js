@@ -51,14 +51,19 @@ const translations = {
         'footer-program-recycle': 'Recycling',
         'footer-program-workshops': 'School Workshops',
         'footer-program-events': 'Community Events',
+        'footer-program-expo': 'Eco Expo',
         'footer-download-title': 'Download App',
         'nav-home': 'Home',
         'nav-about': 'About',
+        'nav-expo-about': 'About',
         'nav-goals': 'Goals',
         'nav-programs': 'Programs',
         'nav-team': 'Team',
         'nav-app': 'Mobile App',
         'nav-contact': 'Contact',
+        'nav-vision': 'Vision',
+        'nav-message': 'Message',
+        'nav-topics': 'Topics',
         'lang-btn': 'عربي',
         'hero-title-main': 'Sheikha Shamma Initiative',
         'hero-title-arabic': 'مبادرة الشيخة شما',
@@ -129,6 +134,59 @@ const translations = {
         'footer-copyright': '© 2025 Shamma Initiative. All rights reserved.',
         'footer-powered': 'Powered by SMBKC Culture',
         'footer-follow': 'Follow us:',
+        // Expo page translations
+        'expo-title-main': 'Eco Expo Industrial Forum and Exhibition',
+        'expo-title-arabic': 'ملتقى ومعرض إيكو إكسبو الصناعي',
+        'expo-subtitle': 'Specialized industrial event showcasing the latest innovations and technological solutions in environmental sustainability and clean industry.',
+        'learn-more-expo': 'Learn More',
+        'expo-vision-title': 'Our Vision',
+        'expo-topics-title': 'Paper Topics',
+        'expo-goals-title': 'Event Goals',
+        'expo-about-title': 'About the Event',
+        'expo-message-title': 'Our Message',
+        'get-involved': 'Get Involved',
+        'definition-title': 'Definition',
+        'definition-text': 'It is a specialized industrial event that aims to showcase the latest innovations and technological solutions in the field of environmental sustainability and clean industry, highlight smart applications that contribute to improving industrial processes efficiency, reducing emissions, bringing together companies and specialists to exchange experiences, and supporting the transformation towards a clean and sustainable industrial environment.',
+        'vision-innovation': 'Innovation',
+        'vision-innovation-text': 'Implementing technological solutions that contribute to reducing environmental impact',
+        'vision-industries': 'Smart Industries',
+        'vision-industries-text': 'Enabling prudent industries and enhancing social responsibility for sustainable development',
+        'message-text': 'Providing a platform for displaying sustainable industrial solutions with emphasis on the role of wise leadership in the UAE, supporting sustainable innovation, and exchanging knowledge and experiences among specialists to achieve a balance between industrial growth, environmental protection, and community well-being.',
+        'goal1': 'Enhance Innovation',
+        'goal1-text': 'Enhancing industrial innovation in the field of environmental sustainability',
+        'goal2': 'Highlight Technologies',
+        'goal2-text': 'Highlighting smart technologies in industry to achieve a clean environment',
+        'goal3': 'Exchange Experiences',
+        'goal3-text': 'Exchanging experiences between companies and specialists in the industrial sector',
+        'goal4': 'Stimulate Investments',
+        'goal4-text': 'Stimulating investments in sustainable environmental solutions',
+        'goal5': 'Raise Awareness',
+        'goal5-text': 'Raising awareness of the importance of clean and sustainable industry technologies',
+        'goal6': 'Support Innovations',
+        'goal6-text': 'Supporting and adopting industrial innovations that contribute to environmental protection',
+        'goal7': 'Enhance Cooperation',
+        'goal7-text': 'Enhancing cooperation between the public and private sectors to implement innovative environmental solutions',
+        'goal8': 'Showcase Solutions',
+        'goal8-text': 'Showcasing innovative technological solutions to improve industrial processes efficiency and reduce emissions',
+        'topic1-title': 'Smart Technologies in Sustainable Industry',
+        'topic1-item1': 'Reviewing the latest technological solutions in green production fields',
+        'topic1-item2': 'Technologies that support sustainability',
+        'topic1-item3': 'Monitoring and improving industrial processes for environmental efficiency',
+        'topic1-item4': 'Internet of Things (IoT) applications in industry',
+        'about-subtitle': 'A specialized industrial forum under Shamma Initiative',
+        'vision-subtitle': 'Striving for a sustainable industrial environment',
+        'message-subtitle': 'Providing a platform for sustainable industrial solutions',
+        'goals-subtitle': 'Advancing industrial sustainability',
+        'topics-subtitle': 'Focus areas for presentations and discussions',
+        // Expo footer translations
+        'expo-footer-quicklinks-title': 'Quick Links',
+        'expo-footer-link-about': 'About',
+        'expo-footer-link-vision': 'Vision',
+        'expo-footer-link-message': 'Message',
+        'expo-footer-link-goals': 'Goals',
+        'expo-footer-link-topics': 'Topics',
+        'expo-footer-programs-title': 'Programs',
+        'expo-footer-download-title': 'Download App',
     },
     ar: {
         'app-demo-plant': 'ازرع شجرة',
@@ -162,14 +220,19 @@ const translations = {
         'footer-program-recycle': 'إعادة التدوير',
         'footer-program-workshops': 'ورش عمل مدرسية',
         'footer-program-events': 'فعاليات مجتمعية',
+        'footer-program-expo': 'إيكو إكسبو',
         'footer-download-title': 'تحميل التطبيق',
         'nav-home': 'الرئيسية',
         'nav-about': 'حول المبادرة',
+        'nav-expo-about': 'حول الملتقى',
         'nav-goals': 'الأهداف',
         'nav-programs': 'البرامج',
         'nav-team': 'الفريق',
         'nav-app': 'التطبيق',
         'nav-contact': 'تواصل معنا',
+        'nav-vision': 'الرؤية',
+        'nav-message': 'الرسالة',
+        'nav-topics': 'المحاور',
         'lang-btn': 'English',
         'hero-title-main': 'مبادرة الشيخة شما',
         'hero-title-arabic': 'Sheikha Shamma Initiative',
@@ -241,6 +304,59 @@ const translations = {
         'footer-copyright': '© 2025 مبادرة الشيخة شما. جميع الحقوق محفوظة.',
         'footer-powered': 'بدعم من مركز الثقافة SMBKC',
         'footer-follow': 'تابعنا:',
+        // Expo page translations
+        'expo-title-main': 'ملتقى ومعرض إيكو إكسبو الصناعي',
+        'expo-title-arabic': 'Eco Expo Industrial Forum and Exhibition',
+        'expo-subtitle': 'حدث صناعي متخصص يهدف إلى عرض أحدث الابتكارات والحلول التكنولوجية في مجال الاستدامة البيئية والصناعة النظيفة',
+        'learn-more-expo': 'اعرف المزيد',
+        'expo-goals-title': 'أهدافنا',
+        'expo-topics-title': 'محاور الملتقى',
+        'expo-about-title': 'حول الملتقى',
+        'expo-vision-title': 'رؤية الملتقى',
+        'expo-message-title': 'رسالة الملتقى',
+        'get-involved': 'شارك معنا',
+        'definition-title': 'التعريف',
+        'definition-text': 'هو حدث صناعي متخصص يهدف إلى: عرض أحدث الابتكارات والحلول التكنولوجية في مجال الاستدامة البيئية والصناعة النظيفة تسليط الضوء على التطبيقات الذكية التي تساهم في: تحسين كفاءة العمليات الصناعية تقليل الانبعاثات جمع الشركات والمتخصصين لتبادل الخبرات دعم التحول نحو بيئة صناعية نظيفة ومستدامة',
+        'vision-innovation': 'الابتكار',
+        'vision-innovation-text': 'تطبيق الحلول التقنية التي تساهم في تقليل الأثر البيئي',
+        'vision-industries': 'تمكين الصناعات الرشيدة',
+        'vision-industries-text': 'تعزيز المسؤولية المجتمعية لتحقيق تنمية مستدامة',
+        'message-text': 'توفير منصة لعرض الحلول الصناعية المستدامة مع التأكيد على: دور القيادة الرشيدة في دولة الإمارات دعم الابتكار المستدام تبادل المعرفة والخبرات بين المتخصصين بما يحقق توازنًا بين: النمو الصناعي حماية البيئة رفاهية المجتمع',
+        'goal1': 'تعزيز الابتكار الصناعي في مجال الاستدامة البيئية',
+        'goal1-text': 'تعزيز الابتكار الصناعي في مجال الاستدامة البيئية',
+        'goal2': 'تسليط الضوء على التقنيات الذكية في الصناعة لتحقيق بيئة نظيفة',
+        'goal2-text': 'تسليط الضوء على التقنيات الذكية في الصناعة لتحقيق بيئة نظيفة',
+        'goal3': 'تبادل الخبرات بين الشركات والمتخصصين في القطاع الصناعي',
+        'goal3-text': 'تبادل الخبرات بين الشركات والمتخصصين في القطاع الصناعي',
+        'goal4': 'تحفيز الاستثمارات في الحلول البيئية المستدامة',
+        'goal4-text': 'تحفيز الاستثمارات في الحلول البيئية المستدامة',
+        'goal5': 'نشر الوعي بأهمية تقنيات الصناعات النظيفة والمستدامة',
+        'goal5-text': 'نشر الوعي بأهمية تقنيات الصناعات النظيفة والمستدامة',
+        'goal6': 'دعم وتبني الابتكارات الصناعية التي تساهم في حماية البيئة',
+        'goal6-text': 'دعم وتبني الابتكارات الصناعية التي تساهم في حماية البيئة',
+        'goal7': 'تعزيز التعاون بين القطاعين العام والخاص لتنفيذ حلول بيئية مبتكرة',
+        'goal7-text': 'تعزيز التعاون بين القطاعين العام والخاص لتنفيذ حلول بيئية مبتكرة',
+        'goal8': 'عرض حلول تكنولوجية مبتكرة لتحسين كفاءة العمليات الصناعية وتقليل الانبعاثات',
+        'goal8-text': 'عرض حلول تكنولوجية مبتكرة لتحسين كفاءة العمليات الصناعية وتقليل الانبعاثات',
+        'topic1-title': 'التقنيات الذكية في الصناعة المستدامة، وتشمل:',
+        'topic1-item1': 'استعراض أحدث الحلول التكنولوجية في مجالات الإنتاج الأخضر',
+        'topic1-item2': 'التقنيات التي تدعم الاستدامة',
+        'topic1-item3': 'مراقبة وتحسين العمليات الصناعية لتحقيق كفاءة بيئية',
+        'topic1-item4': 'تطبيقات إنترنت الأشياء (IoT) في الصناعة',
+        'about-subtitle': 'منتدى صناعي متخصص تحت مظلة مبادرة الشيخة شما',
+        'vision-subtitle': 'السعي إلى تحقيق بيئة صناعية مستدامة',
+        'message-subtitle': 'توفير منصة للحلول الصناعية المستدامة',
+        'goals-subtitle': 'النهوض بالاستدامة الصناعية',
+        'topics-subtitle': 'مجالات التركيز للعروض والمناقشات',
+        // Expo footer translations
+        'expo-footer-quicklinks-title': 'روابط سريعة',
+        'expo-footer-link-about': 'حول',
+        'expo-footer-link-vision': 'الرؤية',
+        'expo-footer-link-message': 'الرسالة',
+        'expo-footer-link-goals': 'الأهداف',
+        'expo-footer-link-topics': 'المحاور',
+        'expo-footer-programs-title': 'البرامج',
+        'expo-footer-download-title': 'تحميل التطبيق',
     }
 };
 
@@ -254,8 +370,18 @@ langToggle.addEventListener("click", () => {
 
   // Update navigation links
   const navItems = document.querySelectorAll(".nav-link");
-  navItems.forEach((item, index) => {
-    const keys = [
+  let keys;
+  if (document.getElementById('expo-title-main')) {
+    keys = [
+      "nav-home",
+      "nav-expo-about",
+      "nav-vision",
+      "nav-message",
+      "nav-goals",
+      "nav-topics",
+    ];
+  } else {
+    keys = [
       "nav-home",
       "nav-about",
       "nav-goals",
@@ -264,7 +390,9 @@ langToggle.addEventListener("click", () => {
       "nav-app",
       "nav-contact",
     ];
-    if (translations[lang][keys[index]]) {
+  }
+  navItems.forEach((item, index) => {
+    if (keys[index] && translations[lang][keys[index]]) {
       item.textContent = translations[lang][keys[index]];
     }
   });
@@ -326,16 +454,22 @@ langToggle.addEventListener("click", () => {
     goalsSubtitle.textContent = translations[lang]["goals-subtitle"];
 
   // Update goal cards
-  const goalCards = document.querySelectorAll(".goal-card");
-  const goalKeys = ["goal1", "goal2", "goal3", "goal4", "goal5", "goal6"];
+  const isExpo = !!document.getElementById('expo-title-main');
+  const goalSelector = isExpo ? "#goals .goal-card" : ".goal-card";
+  const numGoals = isExpo ? 8 : 6;
+  const goalCards = document.querySelectorAll(goalSelector);
+  const goalKeys = Array.from({length: numGoals}, (_, i) => `goal${i+1}`);
+  const keySuffix = isExpo ? '' : '-title';
   goalCards.forEach((card, index) => {
-    const title = card.querySelector("h3");
-    const text = card.querySelector("p");
-    if (title && translations[lang][goalKeys[index] + "-title"]) {
-      title.textContent = translations[lang][goalKeys[index] + "-title"];
-    }
-    if (text && translations[lang][goalKeys[index] + "-text"]) {
-      text.textContent = translations[lang][goalKeys[index] + "-text"];
+    if (index < goalKeys.length) {
+      const title = card.querySelector("h3");
+      const text = card.querySelector("p");
+      if (title && translations[lang][goalKeys[index] + keySuffix]) {
+        title.textContent = translations[lang][goalKeys[index] + keySuffix];
+      }
+      if (text && translations[lang][goalKeys[index] + "-text"]) {
+        text.textContent = translations[lang][goalKeys[index] + "-text"];
+      }
     }
   });
 
@@ -489,7 +623,7 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
   const footerProgramsTitle = document.querySelector('.footer-section:nth-child(3) h4');
   const footerPrograms = document.querySelectorAll('.footer-section:nth-child(3) ul li a');
   if (footerProgramsTitle) footerProgramsTitle.textContent = translations[lang]['footer-programs-title'];
-  const programKeys = ['footer-program-tree', 'footer-program-recycle', 'footer-program-workshops', 'footer-program-events'];
+  const programKeys = ['footer-program-tree', 'footer-program-recycle', 'footer-program-workshops', 'footer-program-events', 'footer-program-expo'];
   footerPrograms.forEach((link, idx) => {
     if (translations[lang][programKeys[idx]]) link.textContent = translations[lang][programKeys[idx]];
   });
@@ -500,6 +634,82 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
     // Update Footer Description
   const footerDesc = document.getElementById('footer-desc');
   if (footerDesc) footerDesc.textContent = translations[lang]['footer-desc'];
+
+  // Update Expo footer if on expo page
+  if (document.getElementById('expo-title-main')) {
+    const expoFooterQuickLinksTitle = document.getElementById('expo-footer-quicklinks-title');
+    const expoFooterQuickLinks = document.querySelectorAll('#expo-footer-quicklinks-title + ul li a');
+    const expoFooterProgramsTitle = document.getElementById('expo-footer-programs-title');
+    const expoFooterDownloadTitle = document.getElementById('expo-footer-download-title');
+
+    if (expoFooterQuickLinksTitle) expoFooterQuickLinksTitle.textContent = translations[lang]['expo-footer-quicklinks-title'];
+    const expoQuickLinkKeys = ['expo-footer-link-about', 'expo-footer-link-vision', 'expo-footer-link-message', 'expo-footer-link-goals', 'expo-footer-link-topics'];
+    expoFooterQuickLinks.forEach((link, idx) => {
+      if (translations[lang][expoQuickLinkKeys[idx]]) link.textContent = translations[lang][expoQuickLinkKeys[idx]];
+    });
+    if (expoFooterProgramsTitle) expoFooterProgramsTitle.textContent = translations[lang]['expo-footer-programs-title'];
+    if (expoFooterDownloadTitle) expoFooterDownloadTitle.textContent = translations[lang]['expo-footer-download-title'];
+  }
+
+  // Update Expo page elements
+  const expoTitleMain = document.getElementById('expo-title-main');
+  const expoTitleArabic = document.getElementById('expo-title-arabic');
+  const expoAboutTitle = document.getElementById('expo-about-title');
+  const expoVisionTitle = document.getElementById('vision-title');
+  const expoTopicsTitle = document.getElementById('expo-topics-title');
+  const expoGoalsTitle = document.getElementById('expo-goals-title');
+  const expoMessageTitle = document.getElementById('expo-message-title');
+  const expoSubtitle = document.getElementById('expo-subtitle');
+  const learnMoreExpo = document.getElementById('learn-more-expo');
+  const getInvolved = document.getElementById('get-involved');
+  const definitionTitle = document.getElementById('definition-title');
+  const definitionText = document.getElementById('definition-text');
+  const visionInnovation = document.getElementById('vision-innovation');
+  const visionInnovationText = document.getElementById('vision-innovation-text');
+  const visionIndustries = document.getElementById('vision-industries');
+  const visionIndustriesText = document.getElementById('vision-industries-text');
+  const messageText = document.getElementById('message-text');
+  const topic1Title = document.getElementById('topic1-title');
+  const topic1Item1 = document.getElementById('topic1-item1');
+  const topic1Item2 = document.getElementById('topic1-item2');
+  const topic1Item3 = document.getElementById('topic1-item3');
+  const topic1Item4 = document.getElementById('topic1-item4');
+
+  if (expoTitleMain) expoTitleMain.textContent = translations[lang]['expo-title-main'];
+  if (expoTitleArabic) expoTitleArabic.textContent = translations[lang]['expo-title-arabic'];
+  if (expoGoalsTitle) expoGoalsTitle.textContent = translations[lang]['expo-goals-title'];
+  if (expoTopicsTitle) expoTopicsTitle.textContent = translations[lang]['expo-topics-title'];
+  if (expoAboutTitle) expoAboutTitle.textContent = translations[lang]['expo-about-title'];
+  if (expoMessageTitle) expoMessageTitle.textContent = translations[lang]['expo-message-title'];
+  if (expoSubtitle) expoSubtitle.textContent = translations[lang]['expo-subtitle'];
+  if (expoVisionTitle) expoVisionTitle.textContent = translations[lang]['expo-vision-title'];
+  if (learnMoreExpo) learnMoreExpo.textContent = translations[lang]['learn-more-expo'];
+  if (getInvolved) getInvolved.textContent = translations[lang]['get-involved'];
+  if (definitionTitle) definitionTitle.textContent = translations[lang]['definition-title'];
+  if (definitionText) definitionText.textContent = translations[lang]['definition-text'];
+  if (visionInnovation) visionInnovation.textContent = translations[lang]['vision-innovation'];
+  if (visionInnovationText) visionInnovationText.textContent = translations[lang]['vision-innovation-text'];
+  if (visionIndustries) visionIndustries.textContent = translations[lang]['vision-industries'];
+  if (visionIndustriesText) visionIndustriesText.textContent = translations[lang]['vision-industries-text'];
+  if (messageText) messageText.textContent = translations[lang]['message-text'];
+  if (topic1Title) topic1Title.textContent = translations[lang]['topic1-title'];
+  if (topic1Item1) topic1Item1.textContent = translations[lang]['topic1-item1'];
+  if (topic1Item2) topic1Item2.textContent = translations[lang]['topic1-item2'];
+  if (topic1Item3) topic1Item3.textContent = translations[lang]['topic1-item3'];
+  if (topic1Item4) topic1Item4.textContent = translations[lang]['topic1-item4'];
+
+  // Update expo subtitles
+  const expoAboutSubtitle = document.getElementById('about-subtitle');
+  const visionSubtitle = document.getElementById('vision-subtitle');
+  const messageSubtitle = document.getElementById('message-subtitle');
+  const expoGoalsSubtitle = document.getElementById('goals-subtitle');
+  const topicsSubtitle = document.getElementById('topics-subtitle');
+  if (expoAboutSubtitle) expoAboutSubtitle.textContent = translations[lang]['about-subtitle'];
+  if (visionSubtitle) visionSubtitle.textContent = translations[lang]['vision-subtitle'];
+  if (messageSubtitle) messageSubtitle.textContent = translations[lang]['message-subtitle'];
+  if (expoGoalsSubtitle) expoGoalsSubtitle.textContent = translations[lang]['goals-subtitle'];
+  if (topicsSubtitle) topicsSubtitle.textContent = translations[lang]['topics-subtitle'];
+
   // Update Contact section
   const contactTitle = document.querySelector("#contact .section-title");
 

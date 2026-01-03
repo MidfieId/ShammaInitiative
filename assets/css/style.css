@@ -396,6 +396,12 @@ h6 {
     background: var(--white);
 }
 
+.expo-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -949,9 +955,9 @@ h6 {
     transition: var(--transition);
 }
 
-.footer-section ul li a:hover {
+/* .footer-section ul li a:hover {
     color: var(--primary-color);
-}
+} */
 
 .footer-social {
     display: flex;
