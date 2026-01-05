@@ -361,6 +361,8 @@ const translations = {
 };
 
 langToggle.addEventListener("click", () => {
+  // Toggle the language state first
+  isArabic = !isArabic;
  
   const lang = isArabic ? "ar" : "en";
 
@@ -382,12 +384,12 @@ langToggle.addEventListener("click", () => {
     ];
   } else {
     keys = [
-      "nav-home",
+      // "nav-home",
       "nav-about",
       "nav-goals",
       "nav-programs",
       "nav-app",
-      "nav-team",
+      // "nav-team",
       "nav-contact",
     ];
   }
@@ -723,7 +725,6 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
   if (appDemoPlant) appDemoPlant.textContent = translations[lang]['app-demo-plant'];
   if (appDemoRecycle) appDemoRecycle.textContent = translations[lang]['app-demo-recycle'];
   if (appDemoShare) appDemoShare.textContent = translations[lang]['app-demo-share'];
-isArabic = !isArabic;
 });
 
 // Smooth Scrolling for Navigation Links
@@ -738,6 +739,10 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
       });
     }
   });
+});
+
+document.querySelector("#expo-div").addEventListener("click", () => {
+  window.location.href = "expo.html";
 });
 
 // Header Background on Scroll
@@ -872,13 +877,12 @@ appStoreButtons.forEach((button) => {
     const isAppStore = button.querySelector("img").src.includes("app-store");
     const store = isAppStore ? "App Store" : "Google Play";
 
-    // Show coming soon message
+    !isAppStore ? 
     alert(
       `The Shamma Initiative app will be available on ${store} soon! Stay tuned for updates.`
-    );
-
-    // In a real implementation, you would redirect to the actual app store links
-    // window.open(isAppStore ? 'https://apps.apple.com/...' : 'https://play.google.com/...', '_blank');
+    ) :
+    
+      window.open('https://apps.apple.com/ae/app/eghars/id6754612588', '_blank');
   });
 });
 
