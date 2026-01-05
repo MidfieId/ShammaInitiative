@@ -109,6 +109,10 @@ h6 {
     box-shadow: var(--shadow);
 }
 
+#about-the-init-header {
+    margin-bottom: 4rem !important;
+}
+
 .nav {
     padding: 1rem 0;
 }
