@@ -175,10 +175,10 @@ const translations = {
         'goal8': 'Showcase Solutions',
         'goal8-text': 'Showcasing innovative technological solutions to improve industrial processes efficiency and reduce emissions',
         'topic1-title': 'Smart Technologies in Sustainable Industry',
-        'topic1-item1': 'Reviewing the latest technological solutions in green production fields',
-        'topic1-item2': 'Technologies that support sustainability',
+        'topic1-item1': 'Showcasing the latest technological solutions in green production fields',
+        'topic1-item2': 'and Technologies that support sustainability',
         'topic1-item3': 'Monitoring and improving industrial processes for environmental efficiency',
-        'topic1-item4': 'Internet of Things (IoT) applications in industry',
+        'topic1-item4': 'through Internet of Things (IoT) applications in industry',
         // Paper topic section
         'topic2-title': 'Circular Economy in Industry',
         'topic2-item1': 'How to apply circular economy concepts in the industrial sector to reduce waste and organize reuse and recycling',
@@ -593,6 +593,7 @@ langToggle.addEventListener("click", () => {
   const q4Subtitle = document.querySelector("#q4-subtitle");
   const q4Item1 = document.querySelector("#q4-item1");
   const q4Item2 = document.querySelector("#q4-item2");
+  const q4Item3 = document.querySelector("#q4-item3");
 
   if (q4Title) q4Title.textContent = translations[lang]["q4-title"];
   if (q4Subtitle) q4Subtitle.textContent = translations[lang]["q4-subtitle"];
@@ -847,7 +848,8 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
-
+const expoDiv = document.querySelector("#expo-div");
+if (expoDiv)
 document.querySelector("#expo-div").addEventListener("click", () => {
   window.location.href = "expo.html";
 });
