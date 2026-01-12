@@ -57,6 +57,9 @@ const translations = {
         'nav-about': 'About',
         'nav-expo-about': 'About',
         'nav-goals': 'Goals',
+        'nav-q3': 'Recycling Machines',
+        'nav-q4': 'Education Bag',
+        'nav-q5': 'Mobile Library',
         'nav-programs': 'Programs',
         'nav-team': 'Team',
         'nav-app': 'Mobile App',
@@ -98,8 +101,11 @@ const translations = {
         'q1-title': 'Eco Expo Industrial Forum and Exhibition',
         'q2-title': 'Smart Afforestation Platform (E.GHARS)',
         'q3-title': 'Distribution of Recycling Machines',
+        'q3-subtitle': 'Spreading recycling culture',
         'q4-title': '"Environmental Education Bag" Program (Awareness Kits)',
+        'q4-subtitle': 'Enhancing environmental awareness in schools',
         'q5-title': 'Mobile Library for Environmental Education',
+        'q5-subtitle': 'Spreading knowledge across the Emirates',
         
         'q1-item1': 'Goal: To showcase the latest innovations and technological solutions in the field of environmental sustainability and clean industry.',
         'q1-item2': 'Slogan: "Smart Industry for a Clean Environment"',
@@ -115,7 +121,7 @@ const translations = {
         'q4-item2': 'Its contents include awareness stories, interactive activities, and recycling tools.',
         'q5-item1':'It is a mobile educational library aimed at spreading environmental knowledge and educating the community in various regions.',
         'q5-item2':'It conducts regular tours throughout the Emirates to achieve comprehensive access for all community members.',
-        'app-title': 'Download Our Mobile App',
+        'app-title': 'Download Our Mobile App E.GHARS',
         'app-text': 'Join our community through our interactive mobile application for community participation in tree planting and recycling initiatives.',
         'feature1': 'Share before/after photos',
         'feature2': 'Participate in challenges',
@@ -135,8 +141,8 @@ const translations = {
         'footer-powered': 'Powered by SMBKC Culture',
         'footer-follow': 'Follow us:',
         // Expo page translations
-        'expo-title-main': 'Eco Expo Industrial Forum and Exhibition',
-        'expo-title-arabic': 'ملتقى ومعرض إيكو إكسبو الصناعي',
+        'expo-title-main': 'First Eco Expo Industrial Forum and Exhibition',
+        'expo-title-arabic': 'ملتقى ومعرض إيكو إكسبو الصناعي الأول',
         'expo-subtitle': 'Specialized industrial event showcasing the latest innovations and technological solutions in environmental sustainability and clean industry.',
         'learn-more-expo': 'Learn More',
         'expo-vision-title': 'Our Vision',
@@ -169,10 +175,32 @@ const translations = {
         'goal8': 'Showcase Solutions',
         'goal8-text': 'Showcasing innovative technological solutions to improve industrial processes efficiency and reduce emissions',
         'topic1-title': 'Smart Technologies in Sustainable Industry',
-        'topic1-item1': 'Reviewing the latest technological solutions in green production fields',
-        'topic1-item2': 'Technologies that support sustainability',
+        'topic1-item1': 'Showcasing the latest technological solutions in green production fields',
+        'topic1-item2': 'and Technologies that support sustainability',
         'topic1-item3': 'Monitoring and improving industrial processes for environmental efficiency',
-        'topic1-item4': 'Internet of Things (IoT) applications in industry',
+        'topic1-item4': 'through Internet of Things (IoT) applications in industry',
+        // Paper topic section
+        'topic2-title': 'Circular Economy in Industry',
+        'topic2-item1': 'How to apply circular economy concepts in the industrial sector to reduce waste and organize reuse and recycling',
+        'topic2-item2': 'Strategies that contribute to reducing waste and improving resource sustainability',
+        'topic3-title': 'Clean and Renewable Energy in the Industrial Sector',
+        'topic3-item1': 'Technologies for transforming factories into sustainable environments using solar, wind, and biofuel energy',
+        'topic3-item2': 'Challenges and opportunities in transitioning to clean energy in industry',
+        'topic4-title': 'Innovation in Recycling and Sustainable Materials',
+        'topic4-item1': 'New solutions for recycling industrial waste and using eco-friendly alternative materials',
+        'topic4-item2': 'The role of biodegradable materials and innovation in manufacturing sustainable products',
+        'topic5-title': 'Smart Technologies in Water and Energy Management in Industry',
+        'topic5-item1': 'Innovative systems for rationalizing water and energy consumption in factories',
+        'topic5-item2': 'Technological improvements in resource management systems to achieve high operational efficiency',
+        'topic6-title': 'Management of Industrial Emissions and Carbon Reduction',
+        'topic6-item1': 'Strategies and technologies for reducing carbon emissions from industrial processes',
+        'topic6-item2': 'The role of clean technologies in achieving global goals for reducing emissions',
+        'topic7-title': 'Industrial Innovation in Green Manufacturing',
+        'topic7-item1': 'Adopting best practices in green manufacturing that aim to reduce environmental impact and enhance efficiency',
+        'topic7-item2': 'Developing production technologies that balance industrial growth and environmental preservation',
+        'topic8-title': 'Regulatory and Financial Challenges in Implementing Clean Industry Technologies',
+        'topic8-item1': 'Challenges facing companies in adopting sustainable technological solutions',
+        'topic8-item2': 'Discussing government policies and incentives to encourage green industrial innovation',
         'about-subtitle': 'A specialized industrial forum under Shamma Initiative',
         'vision-subtitle': 'Striving for a sustainable industrial environment',
         'message-subtitle': 'Providing a platform for sustainable industrial solutions',
@@ -226,6 +254,9 @@ const translations = {
         'nav-about': 'حول المبادرة',
         'nav-expo-about': 'حول الملتقى',
         'nav-goals': 'الأهداف',
+        'nav-q3': 'ماكينات إعادة التدوير',
+        'nav-q4': 'حقيبة التثقيف',
+        'nav-q5': 'المكتبة المتنقلة',
         'nav-programs': 'البرامج',
         'nav-team': 'الفريق',
         'nav-app': 'التطبيق',
@@ -267,8 +298,11 @@ const translations = {
         'q1-title': 'ملتقى ومعرض "إيكو أكسبو الصناعي الأول"',
         'q2-title': 'منصة التشجير الذكي (E.GHARS)',
         'q3-title': 'توزيع ماكينات إعادة التدوير',
+        'q3-subtitle': 'نشر ثقافة إعادة التدوير',
         'q4-title': 'برنامج "حقيبة للتثقيف البيئي" (حقائب توعوية) ',
+        'q4-subtitle': 'تعزيز الوعي البيئي في المدارس',
         'q5-title':'المكتبة المتنقلة للتثقيف البيئي',
+        'q5-subtitle': 'نشر المعرفة عبر الإمارات',
 
         'q1-item1': 'الهدف : عرض أحدث الابتكارات والحلول التكنولوجية في مجال الاستدامة البيئية والصناعة النظيفة.',
         'q1-item2': 'الشعار :"صناعة ذكية من أجل بيئة نظيفة".',
@@ -284,7 +318,7 @@ const translations = {
         'q4-item2': 'محتوياتها تشمل قصصًا توعوية، وأنشطة تفاعلية، وأدوات إعادة التدوير.',
         'q5-item1':'مكتبة تعليمية متنقلة تهدف إلى نشر المعرفة البيئية وتثقيف المجتمع في مختلف المناطق.',
         'q5-item2':'تقوم بجولات منتظمة في جميع أنحاء الإمارات لتحقيق شمولية الوصول إلى كافة أفراد المجتمع.',
-        'app-title': 'حمل تطبيقنا المحمول',
+        'app-title': 'قم بتحميل تطبيقنا المحمول E.GHARS',
         'app-text': 'انضم إلى مجتمعنا من خلال تطبيقنا التفاعلي للمشاركة المجتمعية في مبادرات زراعة الأشجار وإعادة التدوير.',
         'feature1': 'شارك صور قبل وبعد',
         'feature2': 'شارك في التحديات',
@@ -305,8 +339,8 @@ const translations = {
         'footer-powered': 'بدعم من مركز الثقافة SMBKC',
         'footer-follow': 'تابعنا:',
         // Expo page translations
-        'expo-title-main': 'ملتقى ومعرض إيكو إكسبو الصناعي',
-        'expo-title-arabic': 'Eco Expo Industrial Forum and Exhibition',
+        'expo-title-main': 'ملتقى ومعرض إيكو إكسبو الصناعي الأول',
+        'expo-title-arabic': 'First Eco Expo Industrial Forum and Exhibition',
         'expo-subtitle': 'حدث صناعي متخصص يهدف إلى عرض أحدث الابتكارات والحلول التكنولوجية في مجال الاستدامة البيئية والصناعة النظيفة',
         'learn-more-expo': 'اعرف المزيد',
         'expo-goals-title': 'أهدافنا',
@@ -343,7 +377,29 @@ const translations = {
         'topic1-item2': 'التقنيات التي تدعم الاستدامة',
         'topic1-item3': 'مراقبة وتحسين العمليات الصناعية لتحقيق كفاءة بيئية',
         'topic1-item4': 'تطبيقات إنترنت الأشياء (IoT) في الصناعة',
-        'about-subtitle': 'منتدى صناعي متخصص تحت مظلة مبادرة الشيخة شما',
+        // Paper topic section
+        'topic2-title': 'الاقتصاد الدائري في الصناعة',
+        'topic2-item1': 'كيفية تطبيق مفاهيم الاقتصاد الدائري في القطاع الصناعي لتقليل النفايات وتنظيم إعادة الاستخدام والتدوير',
+        'topic2-item2': 'استراتيجيات تساهم في تقليل الفاقد وتحسين استدامة الموارد',
+        'topic3-title': 'الطاقة النظيفة والمتجددة في القطاع الصناعي',
+        'topic3-item1': 'تقنيات تحويل المصانع إلى بيئات مستدامة باستخدام الطاقة الشمسية، الرياح، والوقود الحيوي',
+        'topic3-item2': 'التحديات والفرص في التحول إلى الطاقة النظيفة في الصناعة',
+        'topic4-title': 'الابتكار في إعادة التدوير والمواد المستدامة',
+        'topic4-item1': 'حلول جديدة لإعادة تدوير النفايات الصناعية واستخدام مواد بديلة صديقة للبيئة',
+        'topic4-item2': 'دور المواد القابلة للتحلل والابتكار في تصنيع منتجات مستدامة',
+        'topic5-title': 'التقنيات الذكية في إدارة المياه والطاقة في الصناعة',
+        'topic5-item1': 'أنظمة مبتكرة لترشيد استهلاك المياه والطاقة في المصانع',
+        'topic5-item2': 'التحسينات التكنولوجية في أنظمة إدارة الموارد لتحقيق كفاءة تشغيلية عالية',
+        'topic6-title': 'إدارة الانبعاثات الصناعية وتقليل الكربون',
+        'topic6-item1': 'استراتيجيات وتقنيات تقليل انبعاثات الكربون من العمليات الصناعية',
+        'topic6-item2': 'دور التقنيات النظيفة في تحقيق الأهداف العالمية لخفض الانبعاثات',
+        'topic7-title': 'الابتكار الصناعي في مجال التصنيع الأخضر',
+        'topic7-item1': 'تبني أفضل ممارسات التصنيع الأخضر التي تسعى إلى تقليل التأثير البيئي وتعزيز الكفاءة',
+        'topic7-item2': 'تطوير تقنيات الإنتاج التي تحقق التوازن بين النمو الصناعي والحفاظ على البيئة',
+        'topic8-title': 'التحديات التنظيمية والتمويلية في تطبيق تقنيات الصناعة النظيفة',
+        'topic8-item1': 'التحديات التي تواجه الشركات في تبني الحلول التكنولوجية المستدامة',
+        'topic8-item2': 'مناقشة السياسات الحكومية والحوافز لتشجيع الابتكار الصناعي الأخضر',
+        'about-subtitle': 'ملتقى صناعي متخصص تحت مظلة مبادرة الشيخة شما',
         'vision-subtitle': 'السعي إلى تحقيق بيئة صناعية مستدامة',
         'message-subtitle': 'توفير منصة للحلول الصناعية المستدامة',
         'goals-subtitle': 'النهوض بالاستدامة الصناعية',
@@ -387,7 +443,9 @@ langToggle.addEventListener("click", () => {
       // "nav-home",
       "nav-about",
       "nav-goals",
-      "nav-programs",
+      "nav-q3",
+      "nav-q4",
+      "nav-q5",
       "nav-app",
       // "nav-team",
       "nav-contact",
@@ -476,10 +534,8 @@ langToggle.addEventListener("click", () => {
   });
 
   // Update Programs section
-  const programsTitle = document.querySelector("#programs .section-title");
-  const programsSubtitle = document.querySelector(
-    "#programs .section-subtitle"
-  );
+  const programsTitle = document.querySelector("#programs-title");
+  const programsSubtitle = document.querySelector("#programs-subtitle");
 
   if (programsTitle)
     programsTitle.textContent = translations[lang]["programs-title"];
@@ -521,27 +577,37 @@ langToggle.addEventListener("click", () => {
 
   // Update Q3 items
   const q3Title = document.querySelector("#q3-title");
+  const q3Subtitle = document.querySelector("#q3-subtitle");
   const q3Item1 = document.querySelector("#q3-item1");
   const q3Item2 = document.querySelector("#q3-item2");
   const q3Item3 = document.querySelector("#q3-item3");
 
   if (q3Title) q3Title.textContent = translations[lang]["q3-title"];
+  if (q3Subtitle) q3Subtitle.textContent = translations[lang]["q3-subtitle"];
   if (q3Item1) q3Item1.textContent = translations[lang]["q3-item1"];
   if (q3Item2) q3Item2.textContent = translations[lang]["q3-item2"];
   if (q3Item3) q3Item3.textContent = translations[lang]["q3-item3"];
 
   // Update Q4 items
   const q4Title = document.querySelector("#q4-title");
+  const q4Subtitle = document.querySelector("#q4-subtitle");
   const q4Item1 = document.querySelector("#q4-item1");
   const q4Item2 = document.querySelector("#q4-item2");
   const q4Item3 = document.querySelector("#q4-item3");
 
-    // Update Q5 items
+  if (q4Title) q4Title.textContent = translations[lang]["q4-title"];
+  if (q4Subtitle) q4Subtitle.textContent = translations[lang]["q4-subtitle"];
+  if (q4Item1) q4Item1.textContent = translations[lang]["q4-item1"];
+  if (q4Item2) q4Item2.textContent = translations[lang]["q4-item2"];
+
+  // Update Q5 items
   const q5Title = document.querySelector("#q5-title");
+  const q5Subtitle = document.querySelector("#q5-subtitle");
   const q5Item1 = document.querySelector("#q5-item1");
   const q5Item2 = document.querySelector("#q5-item2");
 
   if (q5Title) q5Title.textContent = translations[lang]["q5-title"];
+  if (q5Subtitle) q5Subtitle.textContent = translations[lang]["q5-subtitle"];
   if (q5Item1) q5Item1.textContent = translations[lang]["q5-item1"];
   if (q5Item2) q5Item2.textContent = translations[lang]["q5-item2"];
 
@@ -676,6 +742,27 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
   const topic1Item2 = document.getElementById('topic1-item2');
   const topic1Item3 = document.getElementById('topic1-item3');
   const topic1Item4 = document.getElementById('topic1-item4');
+  const topic2Title = document.getElementById('topic2-title');
+  const topic2Item1 = document.getElementById('topic2-item1');
+  const topic2Item2 = document.getElementById('topic2-item2');
+  const topic3Title = document.getElementById('topic3-title');
+  const topic3Item1 = document.getElementById('topic3-item1');
+  const topic3Item2 = document.getElementById('topic3-item2');
+  const topic4Title = document.getElementById('topic4-title');
+  const topic4Item1 = document.getElementById('topic4-item1');
+  const topic4Item2 = document.getElementById('topic4-item2');
+  const topic5Title = document.getElementById('topic5-title');
+  const topic5Item1 = document.getElementById('topic5-item1');
+  const topic5Item2 = document.getElementById('topic5-item2');
+  const topic6Title = document.getElementById('topic6-title');
+  const topic6Item1 = document.getElementById('topic6-item1');
+  const topic6Item2 = document.getElementById('topic6-item2');
+  const topic7Title = document.getElementById('topic7-title');
+  const topic7Item1 = document.getElementById('topic7-item1');
+  const topic7Item2 = document.getElementById('topic7-item2');
+  const topic8Title = document.getElementById('topic8-title');
+  const topic8Item1 = document.getElementById('topic8-item1');
+  const topic8Item2 = document.getElementById('topic8-item2');
 
   if (expoTitleMain) expoTitleMain.textContent = translations[lang]['expo-title-main'];
   if (expoTitleArabic) expoTitleArabic.textContent = translations[lang]['expo-title-arabic'];
@@ -699,6 +786,27 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
   if (topic1Item2) topic1Item2.textContent = translations[lang]['topic1-item2'];
   if (topic1Item3) topic1Item3.textContent = translations[lang]['topic1-item3'];
   if (topic1Item4) topic1Item4.textContent = translations[lang]['topic1-item4'];
+  if (topic2Title) topic2Title.textContent = translations[lang]['topic2-title'];
+  if (topic2Item1) topic2Item1.textContent = translations[lang]['topic2-item1'];
+  if (topic2Item2) topic2Item2.textContent = translations[lang]['topic2-item2'];
+  if (topic3Title) topic3Title.textContent = translations[lang]['topic3-title'];
+  if (topic3Item1) topic3Item1.textContent = translations[lang]['topic3-item1'];
+  if (topic3Item2) topic3Item2.textContent = translations[lang]['topic3-item2'];
+  if (topic4Title) topic4Title.textContent = translations[lang]['topic4-title'];
+  if (topic4Item1) topic4Item1.textContent = translations[lang]['topic4-item1'];
+  if (topic4Item2) topic4Item2.textContent = translations[lang]['topic4-item2'];
+  if (topic5Title) topic5Title.textContent = translations[lang]['topic5-title'];
+  if (topic5Item1) topic5Item1.textContent = translations[lang]['topic5-item1'];
+  if (topic5Item2) topic5Item2.textContent = translations[lang]['topic5-item2'];
+  if (topic6Title) topic6Title.textContent = translations[lang]['topic6-title'];
+  if (topic6Item1) topic6Item1.textContent = translations[lang]['topic6-item1'];
+  if (topic6Item2) topic6Item2.textContent = translations[lang]['topic6-item2'];
+  if (topic7Title) topic7Title.textContent = translations[lang]['topic7-title'];
+  if (topic7Item1) topic7Item1.textContent = translations[lang]['topic7-item1'];
+  if (topic7Item2) topic7Item2.textContent = translations[lang]['topic7-item2'];
+  if (topic8Title) topic8Title.textContent = translations[lang]['topic8-title'];
+  if (topic8Item1) topic8Item1.textContent = translations[lang]['topic8-item1'];
+  if (topic8Item2) topic8Item2.textContent = translations[lang]['topic8-item2'];
 
   // Update expo subtitles
   const expoAboutSubtitle = document.getElementById('about-subtitle');
@@ -740,7 +848,8 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
-
+const expoDiv = document.querySelector("#expo-div");
+if (expoDiv)
 document.querySelector("#expo-div").addEventListener("click", () => {
   window.location.href = "expo.html";
 });
