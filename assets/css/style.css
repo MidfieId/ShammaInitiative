@@ -604,6 +604,9 @@ h6 {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    .program-section {
+        margin: 2rem 1rem;
+    }
 }
 
 .goal-card:hover {
