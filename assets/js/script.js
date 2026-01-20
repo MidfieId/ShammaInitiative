@@ -14,6 +14,61 @@ navLinks.forEach((link) => {
   });
 });
 
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  // Honeypot check
+  if (this.company.value) {
+    return; // silently fail (bot)
+  }
+
+  // Get the current language for messages
+  const lang = isArabic ? 'ar' : 'en';
+
+  emailjs.sendForm(
+    "service_p127rzo",
+    "template_0pnuwmg",
+    this
+  ).then(
+    function () {
+      // Show success message
+      const messageContainer = document.getElementById("contact-form-message");
+      messageContainer.textContent = translations[lang]['contact-form-success'];
+      messageContainer.classList.remove('error');
+      messageContainer.classList.add('success', 'show');
+      
+      // Reset form
+      e.target.reset();
+      
+      // Hide message after 5 seconds
+      setTimeout(() => {
+        messageContainer.classList.remove('show');
+        setTimeout(() => {
+          messageContainer.classList.remove('success');
+          messageContainer.textContent = '';
+        }, 500);
+      }, 5000);
+    },
+    function (error) {
+      // Show error message
+      const messageContainer = document.getElementById("contact-form-message");
+      messageContainer.textContent = translations[lang]['contact-form-error'];
+      messageContainer.classList.remove('success');
+      messageContainer.classList.add('error', 'show');
+      console.error(error);
+      
+      // Hide message after 5 seconds
+      setTimeout(() => {
+        messageContainer.classList.remove('show');
+        setTimeout(() => {
+          messageContainer.classList.remove('error');
+          messageContainer.textContent = '';
+        }, 500);
+      }, 5000);
+    }
+  );
+});
+
 // Language Toggle
 const langToggle = document.getElementById("lang-toggle");
 let isArabic = false;
@@ -137,6 +192,14 @@ const translations = {
         'contact-phone': '+971 54 327 4710',
         'contact-address': 'Al Ain, Abu Dhabi, UAE',
         'contact-address': 'Al Ain, Abu Dhabi, UAE',
+        // Contact Form Fields - Edit translations below
+        'contact-form-name-placeholder': 'Your Name',
+        'contact-form-email-placeholder': 'Your Email',
+        'contact-form-message-placeholder': 'Your Message',
+        'contact-form-send-button': 'Send',
+        // Contact Form Messages - Edit translations below
+        'contact-form-success': 'Message sent successfully! Thank you for reaching out.',
+        'contact-form-error': 'Failed to send message. Please try again later.',
         'footer-copyright': '© 2025 Shamma Initiative. All rights reserved.',
         'footer-powered': 'Powered by SMBKC Culture',
         'footer-follow': 'Follow us:',
@@ -334,6 +397,14 @@ const translations = {
         'contact-phone': '+971 54 327 4710',
         'contact-address': 'العين، أبوظبي، الإمارات العربية المتحدة',
         'contact-address': 'العين، أبوظبي، الإمارات العربية المتحدة',
+        // Contact Form Fields - Edit translations below
+        'contact-form-name-placeholder': 'اسمك',
+        'contact-form-email-placeholder': 'بريدك الإلكتروني',
+        'contact-form-message-placeholder': 'رسالتك',
+        'contact-form-send-button': 'إرسال',
+        // Contact Form Messages - Edit translations below
+        'contact-form-success': 'تم إرسال الرسالة بنجاح! شكراً لتواصلك معنا.',
+        'contact-form-error': 'فشل إرسال الرسالة. يرجى المحاولة لاحقاً.',
         // Footer translations
         'footer-copyright': '© 2025 مبادرة الشيخة شما. جميع الحقوق محفوظة.',
         'footer-powered': 'بدعم من مركز الثقافة SMBKC',
@@ -631,6 +702,27 @@ if (contactPhone) {
   contactPhone.style.unicodeBidi = 'bidi-override';
 }
 if (contactAddress) contactAddress.textContent = translations[lang]["contact-address"];
+
+  // Update Contact Form Fields
+  const contactFormNameInput = document.querySelector("#contact-form input[name='from_name']");
+  const contactFormEmailInput = document.querySelector("#contact-form input[name='from_email']");
+  const contactFormMessageTextarea = document.querySelector("#contact-form textarea[name='message']");
+  const contactFormButton = document.querySelector("#contact-form button");
+
+  if (contactFormNameInput) contactFormNameInput.placeholder = translations[lang]["contact-form-name-placeholder"];
+  if (contactFormEmailInput) contactFormEmailInput.placeholder = translations[lang]["contact-form-email-placeholder"];
+  if (contactFormMessageTextarea) contactFormMessageTextarea.placeholder = translations[lang]["contact-form-message-placeholder"];
+  if (contactFormButton) contactFormButton.textContent = translations[lang]["contact-form-send-button"];
+
+  // Update Contact Form Messages if currently displayed
+  const contactFormMessage = document.getElementById("contact-form-message");
+  if (contactFormMessage && contactFormMessage.classList.contains('show')) {
+    if (contactFormMessage.classList.contains('success')) {
+      contactFormMessage.textContent = translations[lang]["contact-form-success"];
+    } else if (contactFormMessage.classList.contains('error')) {
+      contactFormMessage.textContent = translations[lang]["contact-form-error"];
+    }
+  }
 
   if (q4Title) q4Title.textContent = translations[lang]["q4-title"];
   if (q4Item1) q4Item1.textContent = translations[lang]["q4-item1"];

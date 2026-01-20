@@ -983,9 +983,16 @@ h6 {
 }
 
 .contact-content {
-    display: Flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 3rem;
+}
+
+.contact-info {
+    width: 100%;
+    max-width: 600px;
 }
 
 .contact-info h3 {
@@ -995,7 +1002,7 @@ h6 {
 
 .contact-info p {
     color: var(--gray);
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
     line-height: 1.7;
 }
 
@@ -1302,4 +1309,102 @@ html {
 .fade-in.visible {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Contact Form Styling */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem auto;
+    max-width: 500px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 12px 16px;
+    border: 2px solid var(--dark-green);
+    border-radius: var(--border-radius);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: var(--dark-gray);
+    transition: var(--transition);
+    background: var(--white);
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: var(--gray);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 4px rgba(64, 224, 208, 0.1);
+    background: var(--white);
+}
+
+#contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+    font-size: 15px;
+}
+
+#contact-form button {
+    padding: 14px 32px;
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+#contact-form button:hover {
+    background: var(--accent-color);
+    color: var(--dark-gray);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+#contact-form button:active {
+    transform: translateY(-1px);
+}
+
+/* Contact Form Message Styling */
+.contact-form-message {
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    min-height: 60px;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    pointer-events: none;
+}
+
+.contact-form-message.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.contact-form-message.success {
+    background-color: #d4edda;
+    border: 2px solid #28a745;
+    color: #155724;
+}
+
+.contact-form-message.error {
+    background-color: #f8d7da;
+    border: 2px solid #dc3545;
+    color: #721c24;
 }

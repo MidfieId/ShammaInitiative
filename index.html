@@ -21,10 +21,10 @@
             <div class="nav-container">
                  <div class="nav-logo">
                     <img class="logo-img" src="shamma media/transparent-logo.png" alt="Eco Expo Industrial Event">
-                    <div class="logo-text">
+                    <!-- <div class="logo-text">
                         <h2>مبادرة الشيخة شما</h2>
                         <span>Sheikha Shamma Initiative</span>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="nav-menu" id="nav-menu">
                     <ul class="nav-list">
@@ -123,10 +123,7 @@
             <div class="section-header" id="about-the-init-header">
                 <h2 class="section-title">About the Initiative</h2>
                 <p class="section-subtitle">Under the patronage of Sheikha Shamma Bint Mohammed Bin Khalid Al Nahyan</p>
-                <div>
-                    <img class="sponsor-image" src="shamma media/logos/2.png" />
-                    <img class="sponsor-image" src="shamma media/logos/6.png" />
-                </div>
+                
             </div>
             <div class="about-content">
                 <div class="about-text">
@@ -458,9 +455,12 @@
                 <h2 class="section-title" id="contact-title">Get Involved</h2>
                 <p class="section-subtitle" id="contact-subtitle">Join our mission for a greener UAE</p>
                 <div>
+                    <div>
+                        <img class="sponsor-image" src="shamma media/logos/2.png" />
+                        <img class="sponsor-image" src="shamma media/logos/6.png" />
+                    </div>
                     <img class="sponsor-image" src="shamma media/logos/1.png" />
                     <img class="pss-image" src="shamma media/logos/3.png" />
-                    <img class="sponsor-image" src="shamma media/logos/4.png" />
                     <img class="sponsor-image" src="shamma media/logos/5.png" />
                 </div>
             </div>
@@ -468,6 +468,18 @@
                 <div class="contact-info">
                     <h3 id="contact-partnership-title">Partnership Opportunities</h3>
                     <p id="contact-partnership-text">We welcome partnerships with schools, organizations, and individuals who share our vision for environmental sustainability.</p>
+                    <!-- Contact Form Message Container -->
+                    <div id="contact-form-message" class="contact-form-message"></div>
+                    <form id="contact-form">
+                    <input type="text" name="from_name" placeholder="Your Name" required>
+                    <input type="email" name="from_email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+
+                    <!-- Honeypot (spam protection) -->
+                    <input type="text" name="company" style="display:none">
+
+                    <button type="submit">Send</button>
+                    </form>
                     <div class="contact-methods">
                         <div class="contact-method">
                             <i class="fas fa-envelope"></i>
@@ -537,6 +549,10 @@
 </footer>
 
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("tcUtBa_agC0_lJy4t");
+</script>
 </body>
 
 </html>
