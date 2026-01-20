@@ -282,6 +282,8 @@ const translations = {
         'expo-footer-link-topics': 'Topics',
         'expo-footer-programs-title': 'Programs',
         'expo-footer-download-title': 'Download App',
+        // Expo Participation Button - Edit translations below
+        'expo-participate-btn': 'Participate Now',
     },
     ar: {
         'app-demo-plant': 'ازرع شجرة',
@@ -488,6 +490,8 @@ const translations = {
         'expo-footer-link-topics': 'المحاور',
         'expo-footer-programs-title': 'البرامج',
         'expo-footer-download-title': 'تحميل التطبيق',
+        // Expo Participation Button - Edit translations below
+        'expo-participate-btn': 'شارك الآن',
     }
 };
 
@@ -798,6 +802,12 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
     // Update Footer Description
   const footerDesc = document.getElementById('footer-desc');
   if (footerDesc) footerDesc.textContent = translations[lang]['footer-desc'];
+
+  // Update Expo Participation Button
+  const expoParticipateBtn = document.getElementById('expo-participate-btn');
+  if (expoParticipateBtn) {
+    expoParticipateBtn.textContent = translations[lang]['expo-participate-btn'];
+  }
 
   // Update Expo footer if on expo page
   if (document.getElementById('expo-title-main')) {

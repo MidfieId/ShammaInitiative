@@ -1409,3 +1409,37 @@ html {
     border: 2px solid #dc3545;
     color: #721c24;
 }
+
+/* Expo Participation Button - Fixed */
+.expo-participate-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: var(--dark-green);
+  color: white;
+  padding: 14px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  z-index: 100;
+  display: inline-block;
+  border: 2px solid #40e0d0;
+}
+
+.expo-participate-btn:hover {
+  background: #2d5a4a;
+  color: #40e0d0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(64, 224, 208, 0.4);
+}
+
+@media (max-width: 768px) {
+  .expo-participate-btn {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
