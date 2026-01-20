@@ -14,60 +14,64 @@ navLinks.forEach((link) => {
   });
 });
 
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
+// Contact Form Submission (only on pages that have the contact form)
+const contactForm = document.getElementById("contact-form");
+if (contactForm) {
+  contactForm.addEventListener("submit", function(e) {
+    e.preventDefault();
 
-  // Honeypot check
-  if (this.company.value) {
-    return; // silently fail (bot)
-  }
-
-  // Get the current language for messages
-  const lang = isArabic ? 'ar' : 'en';
-
-  emailjs.sendForm(
-    "service_p127rzo",
-    "template_0pnuwmg",
-    this
-  ).then(
-    function () {
-      // Show success message
-      const messageContainer = document.getElementById("contact-form-message");
-      messageContainer.textContent = translations[lang]['contact-form-success'];
-      messageContainer.classList.remove('error');
-      messageContainer.classList.add('success', 'show');
-      
-      // Reset form
-      e.target.reset();
-      
-      // Hide message after 5 seconds
-      setTimeout(() => {
-        messageContainer.classList.remove('show');
-        setTimeout(() => {
-          messageContainer.classList.remove('success');
-          messageContainer.textContent = '';
-        }, 500);
-      }, 5000);
-    },
-    function (error) {
-      // Show error message
-      const messageContainer = document.getElementById("contact-form-message");
-      messageContainer.textContent = translations[lang]['contact-form-error'];
-      messageContainer.classList.remove('success');
-      messageContainer.classList.add('error', 'show');
-      console.error(error);
-      
-      // Hide message after 5 seconds
-      setTimeout(() => {
-        messageContainer.classList.remove('show');
-        setTimeout(() => {
-          messageContainer.classList.remove('error');
-          messageContainer.textContent = '';
-        }, 500);
-      }, 5000);
+    // Honeypot check
+    if (this.company.value) {
+      return; // silently fail (bot)
     }
-  );
-});
+
+    // Get the current language for messages
+    const lang = isArabic ? 'ar' : 'en';
+
+    emailjs.sendForm(
+      "service_p127rzo",
+      "template_0pnuwmg",
+      this
+    ).then(
+      function () {
+        // Show success message
+        const messageContainer = document.getElementById("contact-form-message");
+        messageContainer.textContent = translations[lang]['contact-form-success'];
+        messageContainer.classList.remove('error');
+        messageContainer.classList.add('success', 'show');
+        
+        // Reset form
+        e.target.reset();
+        
+        // Hide message after 5 seconds
+        setTimeout(() => {
+          messageContainer.classList.remove('show');
+          setTimeout(() => {
+            messageContainer.classList.remove('success');
+            messageContainer.textContent = '';
+          }, 500);
+        }, 5000);
+      },
+      function (error) {
+        // Show error message
+        const messageContainer = document.getElementById("contact-form-message");
+        messageContainer.textContent = translations[lang]['contact-form-error'];
+        messageContainer.classList.remove('success');
+        messageContainer.classList.add('error', 'show');
+        console.error(error);
+        
+        // Hide message after 5 seconds
+        setTimeout(() => {
+          messageContainer.classList.remove('show');
+          setTimeout(() => {
+            messageContainer.classList.remove('error');
+            messageContainer.textContent = '';
+          }, 500);
+        }, 5000);
+      }
+    );
+  });
+}
 
 // Language Toggle
 const langToggle = document.getElementById("lang-toggle");
