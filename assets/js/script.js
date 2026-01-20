@@ -29,7 +29,7 @@ if (contactForm) {
     const lang = isArabic ? 'ar' : 'en';
 
     emailjs.sendForm(
-      "service_p127rzo",
+      "service_bhrgddh",
       "template_0pnuwmg",
       this
     ).then(
