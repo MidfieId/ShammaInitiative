@@ -181,7 +181,8 @@ const translations = {
         'q5-item1':'It is a mobile educational library aimed at spreading environmental knowledge and educating the community in various regions.',
         'q5-item2':'It conducts regular tours throughout the Emirates to achieve comprehensive access for all community members.',
         'app-title': 'Download Our Mobile App E.GHARS',
-        'app-text': 'Join our community through our interactive mobile application for community participation in tree planting and recycling initiatives.',
+        // App description - detailing features and purpose of E.GHARS
+        'app-description': 'e-Ghars is a digital platform that enables users to actively participate in tree planting in a simple and accessible way. The app allows users to choose the type of tree they wish to plant, complete the payment online, and select the street or location where the tree will be planted. e-Ghars aims to promote environmental sustainability, expand green spaces, and encourage community involvement in urban greening through an easy-to-use mobile experience.',
         'feature1': 'Share before/after photos',
         'feature2': 'Participate in challenges',
         'feature3': 'Connect with community',
@@ -388,7 +389,8 @@ const translations = {
         'q5-item1':'مكتبة تعليمية متنقلة تهدف إلى نشر المعرفة البيئية وتثقيف المجتمع في مختلف المناطق.',
         'q5-item2':'تقوم بجولات منتظمة في جميع أنحاء الإمارات لتحقيق شمولية الوصول إلى كافة أفراد المجتمع.',
         'app-title': 'قم بتحميل تطبيقنا المحمول E.GHARS',
-        'app-text': 'انضم إلى مجتمعنا من خلال تطبيقنا التفاعلي للمشاركة المجتمعية في مبادرات زراعة الأشجار وإعادة التدوير.',
+        // وصف التطبيق - تفاصيل مميزات وغرض تطبيق E.GHARS
+        'app-description': 'تطبيق e-Ghars هو منصة رقمية مبتكرة تُمكّن المستخدمين من المساهمة في زراعة الأشجار بسهولة وفاعلية. يتيح التطبيق للمستخدم اختيار نوع الشجرة التي يرغب في زراعتها، ثم دفع تكلفتها إلكترونيًا، مع إمكانية تحديد الشارع أو الموقع المقترح لزراعة الشجرة. يهدف e-Ghars إلى تعزيز الاستدامة البيئية، وزيادة المساحات الخضراء، وإشراك أفراد المجتمع في مبادرات التشجير بطريقة بسيطة ومباشرة عبر الهاتف الذكي.',
         'feature1': 'شارك صور قبل وبعد',
         'feature2': 'شارك في التحديات',
         'feature3': 'تواصل مع المجتمع',
@@ -738,10 +740,10 @@ if (contactAddress) contactAddress.textContent = translations[lang]["contact-add
   if (q4Item3) q4Item3.textContent = translations[lang]["q4-item3"];
   // Update App section
   const appTitle = document.querySelector("#app h2");
-  const appText = document.querySelector("#app .app-text p");
+  const appDescription = document.querySelector("#app-description");
 
   if (appTitle) appTitle.textContent = translations[lang]["app-title"];
-  if (appText) appText.textContent = translations[lang]["app-text"];
+  if (appDescription) appDescription.textContent = translations[lang]["app-description"];
 
   // Update app features
   const features = document.querySelectorAll(".feature span");
